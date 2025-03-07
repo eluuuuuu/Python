@@ -1,0 +1,9 @@
+# Program to calculate the square of a number
+def calculate_square(num):
+    return num ** 2
+
+# Main program
+print("Enter a number to calculate its square: ")
+number = int(input())  #
+result = calculate_square(number)  #
+print("The square of the number is:", result)

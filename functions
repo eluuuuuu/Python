@@ -1,0 +1,8 @@
+
+def elias(num):
+    return num **5
+
+
+number = 5
+result = elias(number)
+print(result)
